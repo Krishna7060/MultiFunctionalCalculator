@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.bmicontainer{
+    width: 1000px;
+    height: 1000px;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+#titleHeading{
+    text-align: center;
+    font-size: 3.5rem;
+    background-color: blueviolet;
+}
+
+.inputs{
+    padding: 20px;
+    /* margin: 4px; */
+    margin-top: 20px;
+    margin-left: 40px;
+    border: solid gray 10px;
+    height: 68px;
+    width: 400px;
+    display: inline;
+    font-size: 1.5rem;
+    
+}
+
+#score{
+    height: 100px;
+    width: 200px;
+    background-color: cyan;
+    font-size: 1.7rem;
+    color: red;
+    margin-top: 20px;
+    margin-left: 7%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+
+.bmiCalculation{
+    height: 100px;
+width: 200px;
+background-color: cyan;
+font-size: 1.7rem;
+color: red;
+margin-top: 20px;
+margin-left: 7%;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+
+}
+
+#Calculate{
+    border-radius: 5px;
+    background-color: rgb(169, 197, 138);
+    font-size: 2rem;
+}
+
+.instrction{
+    height: 250px;
+    width: 100%;
+    font-size: 2rem;
+    
+    
+
+    text-align: center;
+    color: white;
+    
+
+}
